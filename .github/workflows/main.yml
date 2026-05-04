@@ -7,7 +7,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: checkout code
-       uses: actions/checkkout@v4
+       uses: actions/checkout@v4
      - name: Set up
        uses: actions/setup-java@v4
        with:
